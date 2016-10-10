@@ -1,9 +1,10 @@
 {
-    "name": "Stereoide/Locking",
+    "name": "stereoide/laravel-locking",
     "type": "library",
     "description": "Provides a locking mechanism",
     "keywords": [
         "Stereoide",
+        "laravel",
         "Locking"
     ],
     "homepage": "https://github.com/Stereoide/Locking",
