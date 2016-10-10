@@ -16,13 +16,13 @@ class LockingServiceProvider extends ServiceProvider
         /* Config file */
         
         $this->publishes([
-            __DIR__.'/config/locking.php' => config_path('locking.php')
+            __DIR__.'/../config/locking.php' => config_path('locking.php')
         ], 'config');
         
         /* Database migrations */
         
         $this->publishes([
-            __DIR__.'/migrations' => database_path('migrations')
+            __DIR__.'/../migrations' => database_path('migrations')
         ], 'migrations');        
     }
 
